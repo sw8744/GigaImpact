@@ -1,0 +1,70 @@
+div {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.postRoot3 {
+    display : flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.postInfoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postTitle {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.postTimeDiv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: -20px;
+}
+
+.postAuthor {
+    margin-right: 10px;
+}
+
+.postContent {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 15pt;
+}
+
+.bar {
+    width: 87%;
+    height: 1px;
+    background-color: #0E2B94;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.helpButton {
+    background-color: #F7D355;
+    color: #0E2B94;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 50px;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+}

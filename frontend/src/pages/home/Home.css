@@ -1,0 +1,202 @@
+.doAnythingDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.userInfoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0E2B94;
+}
+
+.userInfoTxt {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.userInfoBox {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.userName, .userDescription, .userLocation, .userHowManyStudy, .userHowManyStudys .userJob, .userPoint {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.doAnything {
+    display: flex;
+}
+
+.userInfo {
+    display: flex;
+    padding: 5px 10px;
+    background-color: #F7D355;
+    color: #0E2B94;
+    border-radius: 5px;
+    width: 92%;
+    height: 235px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.mentor, .mentee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #F7D355;
+    color: #0E2B94;
+    border-radius: 5px;
+    width: 200px;
+    height: 235px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.mentorTxt, .menteeTxt {
+    font-size: 45pt;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.become {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.postsDiv {
+    width: 75%;
+}
+
+.question {
+    
+    text-align: center;
+}
+
+.questionTitle {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.questionBox {
+    border-radius: 5px;
+    border: 2px solid #0E2B94;
+    padding: 5px;
+    height: 180px;
+    text-align: left;
+}
+
+.questionDiv {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0E2B94;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.questionDiv1, .questionDiv2 {
+    display: flex;
+}
+
+.questionDiv1 {
+    width: 75%;
+}
+
+.questionDiv2 {
+    width: 25%;
+    justify-content: end;
+    margin-right: 7px;
+}
+
+.questionDivTitle, .questionCategory, .questionAuthor, .questionDate {
+    margin-left: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.questionDivTitle {
+    font-weight: bold;
+}
+
+.mentorMenteeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mentorDiv, .menteeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 265px;
+}
+
+
+.mentorBox, .myActivity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 103%;
+    border-radius: 5px;
+    border: 2px solid #0E2B94;
+}
+
+.myActivity {
+    height: 265px;
+}
+
+.mentorDiv1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0E2B94;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 5px 5px;
+}
+
+.mentorDiv2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mentorTitle, .menteeTitle {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
+
+.homeRoot {
+    display : flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
